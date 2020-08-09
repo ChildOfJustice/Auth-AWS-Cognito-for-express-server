@@ -8,7 +8,7 @@ $ npm install
 
 AUTHOR OF THIS HELPFUL IDEA: https://medium.com/@floydfajones/express-with-aws-congito-auth-w-typescript-2020-ffc7bc9dc957
 
-I don't know why ***he DID NOT provide ANY CODE reference*** or at least made code in text, not just screenshots of it...
+>I don't know why ***he DID NOT provide ANY CODE reference*** or at least made code in text, not just screenshots of it...
 
 
 # Create AWS Cognito UserPool service:
