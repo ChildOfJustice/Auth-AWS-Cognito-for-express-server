@@ -18,3 +18,7 @@ Login to your aws account and open the Cognito service, follow the steps below:
 3. Keep clicking `Next Step` until you reach the App clients and click `Add a new app client`
 4. Give whatever client name you want and make sure ***Enable username password based authentication (ALLOW_USER_PASSWORD_AUTH)*** is checked and click `Create app client`
 5. Keep clicking `Next Step` and finally click `Create pool`
+
+# Make sure to pass these variables to utils/config.ts file:
+![Screenshot from 2020-08-09 17-53-25](https://user-images.githubusercontent.com/51397216/89735630-b23eba80-da6c-11ea-9f52-da9cb4475007.png)
+
