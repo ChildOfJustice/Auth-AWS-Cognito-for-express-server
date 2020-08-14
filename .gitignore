@@ -8,6 +8,8 @@ node_modules/
 # Distribution / packaging
 build/
 
+# Built client .js
+src/public/bundle.js
 
 
 # User-specific stuff
