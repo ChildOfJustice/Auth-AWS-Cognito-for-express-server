@@ -19,5 +19,8 @@ const app = new App({
         bodyParser.urlencoded({ extended: true })
     ],
 })
-
+//I cant make this "use" in routes, I dont know why
+app.app.use("/", (req, res) => {
+    res.render("index");
+});
 app.listen()

@@ -11,11 +11,21 @@ class HomeController {
     }
 
     private initRoutes(){
-        this.router.get('/', this.home)
+        this.router.get('/', this.home)// WHY NOT "use" instead of "get"???
+        this.router.get('/api/test', this.test)
     }
 
     home(req: Request, res: Response){
-        res.send("Your app is working!")
+        res.render("index");
+        //res.send("Your app is working!")
+    }
+
+    test(req: Request, res: Response){
+        //res.render("index");
+        //res.send("Your app has been tested!")
+        var msg = "EEEEEEE";
+        res.json(msg);
+        console.log('Sent the msg!');
     }
 }
 
